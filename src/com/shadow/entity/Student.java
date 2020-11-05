@@ -24,5 +24,16 @@ public class Student {
 
     public Integer getAge() {
         return age;
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
     }
 }
