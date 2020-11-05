@@ -13,4 +13,16 @@ public class Student {
         this.name = name;
         this.age = age;
     }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
 }
